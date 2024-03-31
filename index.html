@@ -6,72 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movers - Simplify Your Move</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px;
-            text-align: center;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        p {
-            color: #666;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 12px 24px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .cta-button:hover {
-            background-color: #0056b3;
-        }
+        /* CSS styles here */
     </style>
 </head>
 
 <body>
-    <div class="container">
+    <!-- Introduction section -->
+    <section id="intro">
+        <img src="cover-image.jpg" alt="Cover Image" width="100%">
         <h1>Movers</h1>
         <p>Simplify Your Move</p>
-        <p>Move with confidence using Movers, your personal moving assistant.</p>
-        <a href="#features" class="cta-button">Learn More</a>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <a href="link-to-deployed-app" class="cta-button">Go to App</a>
+    </section>
 
-    <div id="features" class="container">
+    <!-- Feature section -->
+    <section id="features">
         <h2>Key Features</h2>
+        <div class="feature">
+            <img src="feature1-image.jpg" alt="Feature 1" width="300">
+            <h3>Inventory Management</h3>
+            <p>Easily keep track of all your belongings with our intuitive inventory management system.</p>
+        </div>
+        <div class="feature">
+            <img src="feature2-image.jpg" alt="Feature 2" width="300">
+            <h3>Moving Tips</h3>
+            <p>Get expert tips and advice to help you plan and execute a successful move.</p>
+        </div>
+        <div class="feature">
+            <img src="feature3-image.jpg" alt="Feature 3" width="300">
+            <h3>Moving Services</h3>
+            <p>Find and hire reliable moving services to assist you with every step of the moving process.</p>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>Movers was inspired by our own experiences with the challenges of moving to a new home. As a team, we
+            wanted to create a solution that would simplify the moving process for others and alleviate some of the
+            stress and frustration associated with it.</p>
+        <p>This project is part of our Portfolio Projects for Holberton School, where we are honing our skills in
+            software development and building real-world applications.</p>
+        <p>Meet the team:</p>
         <ul>
-            <li>Inventory Management</li>
-            <li>Moving Tips</li>
-            <li>Moving Services</li>
+            <li><a href="https://www.linkedin.com/in/emmanuel-arhin-2b10ba271?trk=contact-info">LinkedIn</a></li>
+            <li><a href="https://github.com/Tsikoviski">GitHub</a></li>
+            <li><a href="https://twitter.com/tsikoviski">Twitter</a></li>
         </ul>
-    </div>
+        <p>GitHub Repository: <a href="https://github.com/Tsikoviski/Movers">Movers</a></p>
+    </section>
 
-    <div class="container">
-        <p>Ready to get started?</p>
-        <a href="#download" class="cta-button">Download Now</a>
-    </div>
+    <!-- Video section -->
+    <section id="video">
+        <h2>Project Video</h2>
+        <video controls width="600">
+            <source src="project-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
 
-    <div id="download" class="container">
-        <h2>Download Movers</h2>
-        <p>Available on the App Store and Google Play</p>
-        <img src="app-store-badge.png" alt="App Store Badge" width="150">
-        <img src="google-play-badge.png" alt="Google Play Badge" width="150">
-    </div>
 </body>
 
 </html>
